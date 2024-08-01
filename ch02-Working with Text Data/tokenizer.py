@@ -1,5 +1,5 @@
 import re
-from typing import List, Any
+from typing import List
 from tqdm import tqdm
 
 
