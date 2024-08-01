@@ -2,7 +2,7 @@ import re
 from typing import List
 from tqdm import tqdm
 
-class Tokenizing:
+class Processed:
     def __init__(self, text: str, remove_whitespace: bool = True):
         self.text = text
         self.remove_whitespace = remove_whitespace
