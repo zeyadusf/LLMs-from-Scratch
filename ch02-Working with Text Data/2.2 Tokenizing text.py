@@ -3,8 +3,9 @@ from typing import List
 from tqdm import tqdm
 
 
-class Tokenizer:
+class Tokenizing:
     def __init__(self, path_text: str, remove_whitespace: bool = True):
+        """"""
         self.path_text = path_text
         self.remove_whitespace = remove_whitespace
         self.raw_text = self.read_txt(self.path_text)
@@ -44,7 +45,7 @@ class Tokenizer:
 
 if __name__ == "__main__":
     path_txt = r'E:\Courses\LLMs\LLMs-from-Scratch\ch02-Working with Text Data\data\the-verdict.txt'
-    tokenize_txt = Tokenizer(path_text=path_txt, remove_whitespace=True)
+    tokenize_txt = Tokenizing(path_text=path_txt, remove_whitespace=True)
     print(tokenize_txt[:30])
     print(tokenize_txt.count('--'))
     print(len(tokenize_txt))
