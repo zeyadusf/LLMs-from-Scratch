@@ -39,7 +39,7 @@ class Tokenizer:
         return self.tokenized_txt.count(token)
 
 if __name__ == "__main__":
-    path_txt = r'E:\Courses\LLMs\LLMs-from-Scratch\ch02-Working with Text Data\data\the-verdict.txt'
+    path_txt = r'LLMs-from-Scratch\ch02-Working with Text Data\data\the-verdict.txt'
     tokenize_txt = Tokenizer(path_text=path_txt, remove_whitespace=True)
     print(tokenize_txt[:30])
     print(tokenize_txt.count('--'))
