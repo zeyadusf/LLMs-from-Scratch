@@ -2,6 +2,7 @@ import re
 from typing import List, Any
 from tqdm import tqdm
 
+
 class Tokenizer:
     def __init__(self, path_text: str, remove_whitespace: bool = True):
         self.path_text = path_text
@@ -13,9 +14,10 @@ class Tokenizer:
         return self.tokenized_txt[item]
 
     def __len__(self):
-        print(f'Length of characters: {len(self.raw_text)}')
-        print(f'Length of tokens: {len(self.tokenized_txt)}')
         return len(self.tokenized_txt)
+
+    def get_len_rawtext(self):
+        return len(self.raw_text)
 
     def read_txt(self, path: str) -> str:
         try:
@@ -35,11 +37,13 @@ class Tokenizer:
             return [item.strip() for item in tqdm(txt) if item.strip()]
         else:
             return txt
+
     def count(self, token: str) -> int:
         return self.tokenized_txt.count(token)
 
+
 if __name__ == "__main__":
-    path_txt = r'LLMs-from-Scratch\ch02-Working with Text Data\data\the-verdict.txt'
+    path_txt = r'E:\Courses\LLMs\LLMs-from-Scratch\ch02-Working with Text Data\data\the-verdict.txt'
     tokenize_txt = Tokenizer(path_text=path_txt, remove_whitespace=True)
     print(tokenize_txt[:30])
     print(tokenize_txt.count('--'))
