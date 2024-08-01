@@ -35,9 +35,12 @@ class Tokenizer:
             return [item.strip() for item in tqdm(txt) if item.strip()]
         else:
             return txt
+    def count(self, token: str) -> int:
+        return self.tokenized_txt.count(token)
 
 if __name__ == "__main__":
-    path_text = r'E:\Courses\LLMs\LLMs-from-Scratch\ch02-Working with Text Data\data\the-verdict.txt'
-    tokenize_txt = Tokenizer(path_text=path_text, remove_whitespace=True)
-    print(tokenize_txt[:10])
+    path_txt = r'E:\Courses\LLMs\LLMs-from-Scratch\ch02-Working with Text Data\data\the-verdict.txt'
+    tokenize_txt = Tokenizer(path_text=path_txt, remove_whitespace=True)
+    print(tokenize_txt[:30])
+    print(tokenize_txt.count('--'))
     print(len(tokenize_txt))
