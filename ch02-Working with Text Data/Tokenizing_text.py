@@ -20,6 +20,12 @@ class Tokenizing:
     def get_len_rawtext(self):
         return len(self.raw_text)
 
+    def get_setOf_vocab(self):
+        return sorted(list(set(self.tokenized_txt)))
+
+    def vocab_size(self):
+        return len(self.get_setOf_vocab())
+
     def read_txt(self, path: str) -> str:
         try:
             with open(path, "r", encoding="utf-8") as f:
@@ -49,3 +55,6 @@ if __name__ == "__main__":
     print(tokenize_txt[:30])
     print(tokenize_txt.count('--'))
     print(len(tokenize_txt))
+    print(tokenize_txt.get_setOf_vocab()[:20])
+    print(tokenize_txt.vocab_size())
+
