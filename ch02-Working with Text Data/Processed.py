@@ -2,6 +2,7 @@ import re
 from typing import List
 from tqdm import tqdm
 
+
 class Processed:
     def __init__(self, text: str, remove_whitespace: bool = True):
         self.text = text
@@ -31,6 +32,7 @@ class Processed:
     def count(self, token: str) -> int:
         return self.tokenized_txt.count(token)
 
+
 def read_txt(path: str) -> str:
     try:
         with open(path, "r", encoding="utf-8") as f:
@@ -42,6 +44,7 @@ def read_txt(path: str) -> str:
     except Exception as e:
         print(f"An error occurred: {e}")
         return ""
+
 
 if __name__ == "__main__":
     path_txt = r'E:\Courses\LLMs\LLMs-from-Scratch\ch02-Working with Text Data\data\the-verdict.txt'
