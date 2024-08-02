@@ -48,7 +48,7 @@ def read_txt(path: str) -> str:
 
 if __name__ == "__main__":
     path_txt = r'E:\Courses\LLMs\LLMs-from-Scratch\ch02-Working with Text Data\data\the-verdict.txt'
-    text=read_txt(path_txt)
+    text = read_txt(path_txt)
     tokenize_txt = Processed(text, remove_whitespace=True)
     print(tokenize_txt[:30])
     print(tokenize_txt.count('--'))
