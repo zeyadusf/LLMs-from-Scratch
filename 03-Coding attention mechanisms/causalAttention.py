@@ -1,7 +1,6 @@
 import torch
 from torch import nn
 
-
 class CausalAttention(nn.Module):
     def __init__(self, d_in, d_out, context_length, dropout=0.1, qkv_bias=False):
         super().__init__()
@@ -12,7 +11,7 @@ class CausalAttention(nn.Module):
         self.dropout = torch.nn.Dropout(dropout)
         self.register_buffer(
             'mask',
-            torch.triu(torch.ones(context_length, context_length), diagonal=1))
+            torch.triu(torch.ones((context_length, context_length)), diagonal=1))
 
     def forward(self, x):
         batches, num_tokens, d_in = x.shape
@@ -20,9 +19,9 @@ class CausalAttention(nn.Module):
         values = self.w_values(x)
         queries = self.w_queries(x)
 
-        attn_scores = queries @ keys.transpose(1, 2)
-        attn_scores.masked_fill(self.mask.bool()[:num_tokens, :num_tokens], -torch.inf)
-        attn_weights = torch.softmax(attn_scores/keys.shape[-1], dim=-1)
+        attn_scores = queries @ keys.transpose(-2, -1)
+        attn_scores.masked_fill_(self.mask[:num_tokens, :num_tokens].bool(), -torch.inf)
+        attn_weights = torch.softmax(attn_scores / keys.shape[-1]**0.5, dim=-1)
         attn_weights = self.dropout(attn_weights)
         context_vec = attn_weights @ values
         return context_vec
@@ -49,3 +48,4 @@ if __name__ == "__main__":
     print(context_vector)
     print(f'context_vec.shape {context_vector.shape}')
 
+    
