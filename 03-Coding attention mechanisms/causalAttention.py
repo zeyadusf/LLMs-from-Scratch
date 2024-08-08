@@ -1,6 +1,7 @@
 import torch
 from torch import nn
 
+
 class CausalAttention(nn.Module):
     def __init__(self, d_in, d_out, context_length, dropout=0.1, qkv_bias=False):
         super().__init__()
@@ -47,5 +48,3 @@ if __name__ == "__main__":
     context_vector = ca_att(batch)
     print(context_vector)
     print(f'context_vec.shape {context_vector.shape}')
-
-    
