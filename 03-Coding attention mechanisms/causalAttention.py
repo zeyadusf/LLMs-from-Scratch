@@ -45,6 +45,7 @@ if __name__ == "__main__":
     print(f'batch.shape:{batch.shape} ')
     context_len = batch.shape[1]
     ca_att = CausalAttention(d_in, d_out, context_len, 0.0)
-    context_vec = ca_att(batch)
-    print(context_vec)
-    print(f'context_vec.shape {context_vec.shape}')
+    context_vector = ca_att(batch)
+    print(context_vector)
+    print(f'context_vec.shape {context_vector.shape}')
+
