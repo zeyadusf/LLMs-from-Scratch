@@ -1,6 +1,9 @@
+<div align='center'>
+  
 # LLMs from Scratch
-Build a Large Language Model (From Scratch) 
 
+Build a Large Language Model (From Scratch) 
+</div>
 This repository contains the code and resources for building a large language model (LLM) from scratch, as guided by Sebastian Raschka's book "Build a Large Language Model (from Scratch)." This project aims to demystify the process of creating, training, and fine-tuning LLMs, providing a hands-on approach to understanding the underlying mechanics of these powerful AI models. By following the steps in this repository, you will gain a comprehensive understanding of LLMs and develop your own functional model.
 
 
