@@ -28,10 +28,6 @@ The chapter begins by introducing the concept of tokenization, a crucial preproc
 
 Next, the chapter explores embeddings, which are dense vector representations of tokens. It covers how embeddings are generated and their importance in capturing semantic information. The chapter also highlights popular embedding methods, such as Word2Vec, GloVe, and contextual embeddings used in transformers.
 
-The core of Chapter 2 is an in-depth examination of the transformer architecture, the foundation of most modern LLMs. It breaks down the transformer into its key components: the encoder, decoder, self-attention mechanism, and feed-forward neural networks. The chapter provides detailed diagrams and explanations of how these components work together to process and generate text.
 
-In addition to the architecture, the chapter discusses the training process, including the objective functions used to optimize the model, such as masked language modeling (MLM) and causal language modeling (CLM). It also introduces transfer learning and the concept of fine-tuning pre-trained models on specific tasks.
-
-By the end of Chapter 2, readers will have a comprehensive understanding of the building blocks of LLMs. They will be equipped with the knowledge needed to implement these components and understand their interactions, setting the stage for practical model building and training in subsequent chapters.
 
 
