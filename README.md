@@ -18,16 +18,5 @@ Key concepts such as tokenization, embeddings, and transformer architectures are
 
 By the end of Chapter 1, readers will have a clear understanding of what LLMs are, why they are important, and what to expect as they progress through the book. This introductory chapter sets a solid foundation for the hands-on journey of building a large language model from the ground up.
 
-## Chapter 2: Understanding the Components of Large Language Models
-
-*Abstract:*
-
-Chapter 2 of "Build a Large Language Model (from Scratch)" delves into the essential components that form the backbone of large language models (LLMs). This chapter breaks down the complex architecture of LLMs, providing a clear and detailed explanation of each component's role and function.
-
-The chapter begins by introducing the concept of tokenization, a crucial preprocessing step where text data is converted into numerical tokens that the model can understand. It explains different tokenization techniques, including byte pair encoding (BPE) and WordPiece, and discusses their impact on model performance.
-
-Next, the chapter explores embeddings, which are dense vector representations of tokens. It covers how embeddings are generated and their importance in capturing semantic information. The chapter also highlights popular embedding methods, such as Word2Vec, GloVe, and contextual embeddings used in transformers.
-
-
-
+## Chapter 2:
 
