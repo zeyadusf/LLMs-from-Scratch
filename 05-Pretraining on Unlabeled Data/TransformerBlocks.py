@@ -154,3 +154,5 @@ class MultiHeadAttention(nn.Module):
         context_vec = self.out_proj(context_vec)
         
         return context_vec
+
+# TODO: Tranformer Model in notebook, then build GPT model
