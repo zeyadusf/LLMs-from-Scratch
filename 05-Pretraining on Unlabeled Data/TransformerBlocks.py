@@ -55,3 +55,30 @@ class LayerNorm(nn.Module):
         norm_x = (x - mean) / torch.sqrt(var+self.eps)
         return self.scale * norm_x + self.shift
 
+import torch
+from torch import nn
+
+class LayerNorm(nn.Module):
+    """
+    Layer Normalization module.
+    
+    Args:
+        emb_dim (int): The dimension of the input embeddings.
+    
+    Attributes:
+        eps (float): A small value to avoid division by zero.
+        scale (nn.Parameter): Learnable scale parameter.
+        shift (nn.Parameter): Learnable shift parameter.
+    """
+    def __init__(self, emb_dim):
+        super(LayerNorm, self).__init__()
+        self.eps = 1e-5
+        self.scale = nn.Parameter(torch.ones(emb_dim))
+        self.shift = nn.Parameter(torch.zeros(emb_dim))
+
+    def forward(self, x):
+        mean = x.mean(dim=-1, keepdim=True)
+        var = x.var(dim=-1, keepdim=True)
+        norm_x = (x - mean) / torch.sqrt(var + self.eps)
+        return self.scale * norm_x + self.shift
+
