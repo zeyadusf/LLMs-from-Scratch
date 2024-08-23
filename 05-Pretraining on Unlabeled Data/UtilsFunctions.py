@@ -1,3 +1,4 @@
+import json
 
 def read_txt(path: str) -> str:
     try:
@@ -10,3 +11,8 @@ def read_txt(path: str) -> str:
     except Exception as e:
         print(f"An error occurred: {e}")
         return ""
+    
+
+def read_json(path):
+    with open(path, 'r') as file:
+        return json.load(file)
