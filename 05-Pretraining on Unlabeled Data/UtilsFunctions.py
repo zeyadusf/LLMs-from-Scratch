@@ -1,4 +1,5 @@
 import json
+import torch
 
 def read_txt(path: str) -> str:
     try:
@@ -16,3 +17,8 @@ def read_txt(path: str) -> str:
 def read_json(path):
     with open(path, 'r') as file:
         return json.load(file)
+
+def text_to_token_ids(text, tokenizer):
+    encoded = tokenizer.encode(text, allowed_special={'<|endoftext|>'})
+    encoded_tensor = torch.tensor(encoded).unsqueeze(0) # add batch dimension
+    return encoded_tensor
