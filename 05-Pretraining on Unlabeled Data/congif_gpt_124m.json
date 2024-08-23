@@ -1,6 +1,6 @@
 {
   "vocab_size": 50257,
-  "context_length": 1024,
+  "context_length": 256, // reduce from 1028 to 256 because of the data is small
   "emb_dim": 768,
   "n_heads": 12,
   "n_layers": 12,
