@@ -1,6 +1,7 @@
 import torch
 from torch import nn
 
+
 class GELU(nn.Module):
     """
     Gaussian Error Linear Unit (GELU) activation function.
@@ -55,8 +56,7 @@ class LayerNorm(nn.Module):
         norm_x = (x - mean) / torch.sqrt(var+self.eps)
         return self.scale * norm_x + self.shift
 
-import torch
-from torch import nn
+
 
 class LayerNorm(nn.Module):
     """
@@ -155,4 +155,3 @@ class MultiHeadAttention(nn.Module):
         
         return context_vec
 
-# TODO: Tranformer Model in notebook, then build GPT model
