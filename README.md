@@ -69,8 +69,9 @@ By the end of the chapter, readers will understand how attention mechanisms tran
 > [03-Coding attention mechanisms](https://github.com/zeyadusf/LLMs-from-Scratch/tree/main/03-Coding%20attention%20mechanisms)
 >
 
-## Chapter 4 : Implementing a GPT model from Scratch To Generate Text 
 <div id="chapter-4-implementing-a-gpt-model-from-scratch-to-generate-text">
+
+## Chapter 4 : Implementing a GPT model from Scratch To Generate Text 
 
 *Abstract:*
 
@@ -85,8 +86,10 @@ By the end of the chapter, readers will have a clear understanding of how layer 
 >
 </div>
 
-## Chapter 5 : Pretraining on Unlabeled Data:
+
 <div id="chapter-5-pretraining-on-unlabeled-data">
+
+## Chapter 5 : Pretraining on Unlabeled Data:
 
 *Abstract:*
 
@@ -105,6 +108,7 @@ By the end of the chapter, readers will understand how LLMs generate text one to
 <hr>
 
 <div align='center'id="additional-section-finetuning-llms">
+  
 # Additional Section
 ## Finetuning LLMs
 
@@ -202,8 +206,9 @@ By the end of the chapter, readers will understand how LLMs generate text one to
 
 <hr>
 
-## 📞 Contact :
 <div id="contact">
+
+## 📞 Contact :
 
 <!--social media-->
 <div align="center">
