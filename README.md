@@ -1,4 +1,4 @@
-<div align='center'>
+<div align='center' id="top">
   
 # LLMs from Scratch
 
@@ -13,6 +13,23 @@ This repository contains the code and resources for building a large language mo
 
 [![image](https://github.com/user-attachments/assets/97a19a27-8f4a-4d05-8ece-8d91b8136e51)](https://www.manning.com/books/build-a-large-language-model-from-scratch?utm_source=linkedin&utm_medium=organic&utm_campaign=book_raschka_build_12_12_23)
 
+
+
+<!-- TABLE OF CONTENTS -->
+#### Table of Contents
+<ol>
+  <li><a href="#chapter-1-introduction-to-large-language-models">Chapter 1: Introduction to Large Language Models</a></li>
+  <li><a href="#chapter-2-working-with-text-data">Chapter 2: Working with Text Data</a></li>
+  <li><a href="#chapter-3-coding-attention-mechanisms">Chapter 3: Coding Attention Mechanisms</a></li>
+  <li><a href="#chapter-4-implementing-a-gpt-model-from-scratch-to-generate-text">Chapter 4: Implementing a GPT Model from Scratch To Generate Text</a></li>
+  <li><a href="#chapter-5-pretraining-on-unlabeled-data">Chapter 5: Pretraining on Unlabeled Data</a></li>
+  <li><a href="#additional-section-finetuning-llms">Additional Section: Finetuning LLMs</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ol>
+
+
+
+<br>
 
 
 ## Chapter 1: Introduction to Large Language Models
@@ -77,3 +94,140 @@ By the end of the chapter, readers will understand how LLMs generate text one to
 > Chapter Codes :
 > [05-Pretraining on Unlabeled Data](https://github.com/zeyadusf/LLMs-from-Scratch/tree/main/05-Pretraining%20on%20Unlabeled%20Data)
 >
+> 
+
+<hr>
+
+<div align='center'>
+
+# Additional Section 
+## Finetuning LLMs
+
+<table style="width:100%">
+  <tr>
+    <th>#</th>
+    <th>Project Name</th>
+    <th>Model Name</th>
+    <th>Task</th>
+    <th>GitHub</th>
+    <th>Kaggle</th>
+    <th>Hugging Face</th>
+    <th>Space</th>
+    <th>Notes</th>
+  </tr>
+  
+  <tr>
+    <td>1</td>
+    <td>DAIGT</td>
+    <td><b>DeBERTa</b></td>
+    <td><b>Classification</b></td>
+    <td><a href="https://github.com/zeyadusf/DAIGT-Catch-the-AI">DAIGT | Catch the AI</a></td>
+    <td><a href="https://www.kaggle.com/code/zeyadusf/daigt-deberta">DAIGT | DeBERTa</a></td>
+    <td><a href="https://huggingface.co/zeyadusf/deberta-DAIGT-MODELS">deberta-DAIGT-MODELS</a></td>
+    <td><a href="https://huggingface.co/spaces/zeyadusf/Detection-of-AI-Generated-Text">Detection-of-AI-Generated-Text</a></td>
+    <td>
+      <i>Part of our Graduation Project</i><br>
+      <a href="https://www.catchtheai.tech/">Catch The AI</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>2</td>
+    <td>DAIGT</td>
+    <td><b>RoBERTa</b></td>
+    <td><b>Classification</b></td>
+    <td><a href="https://github.com/zeyadusf/DAIGT-Catch-the-AI">DAIGT | Catch the AI</a></td>
+    <td><a href="https://www.kaggle.com/code/zeyadusf/daigt-roberta">DAIGT | RoBERTa</a></td>
+    <td><a href="https://huggingface.co/zeyadusf/roberta-DAIGT-kaggle">roberta-DAIGT-kaggle</a></td>
+    <td><a href="https://huggingface.co/spaces/zeyadusf/Detection-of-AI-Generated-Text">Detection-of-AI-Generated-Text</a></td>
+    <td>
+      <i>Part of our Graduation Project</i><br>
+      <a href="https://www.catchtheai.tech/">Catch The AI</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>3</td>
+    <td>DAIGT</td> 
+    <td><b>BERT</b></td>
+    <td><b>Classification</b></td>
+    <td><a href="https://github.com/zeyadusf/DAIGT-Catch-the-AI">DAIGT | Catch the AI</a></td>
+    <td><a href="https://www.kaggle.com/code/zeyadusf/daigt-bert">DAIGT | BERT</a></td>
+    <td><a href="https://huggingface.co/zeyadusf/bert-DAIGT-MODELS">bert-DAIGT-MODELS</a></td>
+    <td><a href="https://huggingface.co/spaces/zeyadusf/Detection-of-AI-Generated-Text">Detection-of-AI-Generated-Text</a></td>
+    <td>
+      <i>Part of our Graduation Project</i><br>
+      <a href="https://www.catchtheai.tech/">Catch The AI</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>4</td>
+    <td>DAIGT</td> 
+    <td><b>DistilBERT</b></td>
+    <td><b>Classification</b></td>
+    <td><a href="https://github.com/zeyadusf/DAIGT-Catch-the-AI">DAIGT | Catch the AI</a></td>
+    <td><a href="https://www.kaggle.com/code/zeyadusf/daigt-distilbert">DAIGT | DistilBERT</a></td>
+    <td><a href="https://huggingface.co/zeyadusf/distilbert-DAIGT-MODELS">distilbert-DAIGT-MODELS</a></td>
+    <td><a href="https://huggingface.co/spaces/zeyadusf/Detection-of-AI-Generated-Text">Detection-of-AI-Generated-Text</a></td>
+    <td>
+      <i>Part of our Graduation Project</i><br>
+      <a href="https://www.catchtheai.tech/">Catch The AI</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>5</td>
+    <td>Summarization-by-Finetuning-FlanT5-LoRA</td> 
+    <td><b>FlanT5</b></td>
+    <td><b>Summarization</b></td>
+    <td><a href="https://github.com/zeyadusf/Summarization-by-Finetuning-FlanT5-LoRA">Summarization-by-Finetuning-FlanT5-LoRA</a></td>
+    <td><a href="https://www.kaggle.com/code/zeyadusf/summarization-by-finetuning-flant5-lora">Summarization by Finetuning FlanT5-LoRA</a></td>
+    <td><a href="https://huggingface.co/zeyadusf/FlanT5Summarization-samsum">FlanT5Summarization-samsum </a></td>
+    <td><a href="https://huggingface.co/spaces/zeyadusf/Summarizationflant5">Summarization by Flan-T5-Large with PEFT</a></td>
+    <td>
+      <i>use PEFT and LoRA</i><br>
+    </td>
+  </tr>
+
+
+</table>
+</div>
+
+
+<hr>
+
+## 📞 Contact :
+
+<!--social media-->
+<div align="center">
+<a href="https://www.kaggle.com/zeyadusf" target="blank">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="zeyadusf" height="30" width="40" />
+</a>
+
+
+<a href="https://huggingface.co/zeyadusf" target="blank">
+  <img align="center" src="https://github.com/zeyadusf/zeyadusf/assets/83798621/5c3db142-cda7-4c55-bcce-cc09d5b3aa50" alt="zeyadusf" height="40" width="40" />
+</a> 
+
+ <a href="https://github.com/zeyadusf" target="blank">
+   <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="zeyadusf" height="30" width="40" />
+ </a>
+  
+<a href="https://www.linkedin.com/in/zeyadusf/" target="blank">
+  <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="Zeyad Usf" height="30" width="40" />
+  </a>
+  
+  
+  <a href="https://www.facebook.com/ziayd.yosif" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Zeyad Usf" height="30" width="40" />
+  </a>
+  
+<a href="https://www.instagram.com/zeyadusf" target="blank">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="zeyadusf" height="30" width="40" />
+</a> 
+
+
+
+<a href="#top">Back to top</a>
+
