@@ -28,7 +28,7 @@ This repository contains the code and resources for building a large language mo
 </ol>
 
 
-> You should know about deep learning,some natural language processing,Python and Torch.
+> You should know about deep learning,some natural language processing,Python and pyTorch.
 
 <br>
 
