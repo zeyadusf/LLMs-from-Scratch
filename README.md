@@ -136,7 +136,7 @@ By the end of the chapter, readers will understand how LLMs generate text one to
     <td><a href="https://huggingface.co/zeyadusf/deberta-DAIGT-MODELS">deberta-DAIGT-MODELS</a></td>
     <td><a href="https://huggingface.co/spaces/zeyadusf/Detection-of-AI-Generated-Text">Detection-of-AI-Generated-Text</a></td>
     <td>
-      <i>Part of our Graduation Project</i><br>
+      <i>Part of my Graduation Project</i><br>
       <a href="https://www.catchtheai.tech/">Catch The AI</a>
     </td>
   </tr>
@@ -151,7 +151,7 @@ By the end of the chapter, readers will understand how LLMs generate text one to
     <td><a href="https://huggingface.co/zeyadusf/roberta-DAIGT-kaggle">roberta-DAIGT-kaggle</a></td>
     <td><a href="https://huggingface.co/spaces/zeyadusf/Detection-of-AI-Generated-Text">Detection-of-AI-Generated-Text</a></td>
     <td>
-      <i>Part of our Graduation Project</i><br>
+      <i>Part of my Graduation Project</i><br>
       <a href="https://www.catchtheai.tech/">Catch The AI</a>
     </td>
   </tr>
@@ -166,7 +166,7 @@ By the end of the chapter, readers will understand how LLMs generate text one to
     <td><a href="https://huggingface.co/zeyadusf/bert-DAIGT-MODELS">bert-DAIGT-MODELS</a></td>
     <td><a href="https://huggingface.co/spaces/zeyadusf/Detection-of-AI-Generated-Text">Detection-of-AI-Generated-Text</a></td>
     <td>
-      <i>Part of our Graduation Project</i><br>
+      <i>Part of my Graduation Project</i><br>
       <a href="https://www.catchtheai.tech/">Catch The AI</a>
     </td>
   </tr>
@@ -181,7 +181,7 @@ By the end of the chapter, readers will understand how LLMs generate text one to
     <td><a href="https://huggingface.co/zeyadusf/distilbert-DAIGT-MODELS">distilbert-DAIGT-MODELS</a></td>
     <td><a href="https://huggingface.co/spaces/zeyadusf/Detection-of-AI-Generated-Text">Detection-of-AI-Generated-Text</a></td>
     <td>
-      <i>Part of our Graduation Project</i><br>
+      <i>Part of my Graduation Project</i><br>
       <a href="https://www.catchtheai.tech/">Catch The AI</a>
     </td>
   </tr>
@@ -200,6 +200,19 @@ By the end of the chapter, readers will understand how LLMs generate text one to
     </td>
   </tr>
 
+  <tr>
+    <td>6</td>
+    <td>...</td> 
+    <td><b>...</b></td>
+    <td><b>...</b></td>
+    <td><a href="#">...</a></td>
+    <td><a href="#">...</a></td>
+    <td><a href="#">... </a></td>
+    <td><a href=#">...</a></td>
+    <td>
+      <i>...</i><br>
+    </td>
+  </tr>
 
 </table>
 </div>
