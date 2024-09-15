@@ -199,9 +199,22 @@ By the end of the chapter, readers will understand how LLMs generate text one to
       <i>use PEFT and LoRA</i><br>
     </td>
   </tr>
+<tr>
+    <td>6</td>
+    <td>FInetune Llama2</td> 
+    <td><b>Llama2</b></td>
+    <td><b>Text Generation</b></td>
+    <td><a href="https://github.com/zeyadusf/FineTune-Llama2">FineTune-Llama2</a></td>
+    <td><a href="https://www.kaggle.com/code/zeyadusf/finetune-llama2">FineTune-Llama2</a></td>
+    <td><a href="https://huggingface.co/zeyadusf/llama2-miniguanaco">llama2-miniguanaco </a></td>
+    <td><a href=#">---</a></td>
+    <td>
+      <i>...</i><br>
+    </td>
+  </tr>
 
   <tr>
-    <td>6</td>
+    <td>7</td>
     <td>...</td> 
     <td><b>...</b></td>
     <td><b>...</b></td>
