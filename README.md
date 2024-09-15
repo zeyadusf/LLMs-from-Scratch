@@ -201,7 +201,7 @@ By the end of the chapter, readers will understand how LLMs generate text one to
   </tr>
 <tr>
     <td>6</td>
-    <td>FInetune Llama2</td> 
+    <td>Finetune Llama2</td> 
     <td><b>Llama2</b></td>
     <td><b>Text Generation</b></td>
     <td><a href="https://github.com/zeyadusf/FineTune-Llama2">FineTune-Llama2</a></td>
