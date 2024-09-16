@@ -111,7 +111,8 @@ By the end of the chapter, readers will understand how LLMs generate text one to
 <div align='center'id="additional-section-finetuning-llms">
   
 # Additional Section
-## Finetuning LLMs
+
+## [`1.Finetuning LLMs`](https://github.com/zeyadusf/FineTuning-LLMs)
 
 <table style="width:100%">
   <tr>
@@ -228,8 +229,13 @@ By the end of the chapter, readers will understand how LLMs generate text one to
   </tr>
 
 </table>
+
+<br>
+
+
 </div>
 
+## :link: [`2.Topics in NLP and LLMs`](https://github.com/zeyadusf/topics-in-nlp-llm)
 
 <hr>
 
